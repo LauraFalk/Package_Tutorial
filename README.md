@@ -2,6 +2,7 @@
 # ToyPackage
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/LauraFalk/Package_Tutorial/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/LauraFalk/Package_Tutorial/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of ToyPackage is to ...

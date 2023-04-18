@@ -27,3 +27,47 @@ This only works in the console?
 ```
 load_all() loads the functions in a package theoretically
 
+document() writes doc for package
+
+?greet now populates the help
+
+install() installs the packages in the r folder. look for green check marks.
+
+```{r}
+library(cli)
+# color stuffs
+```
+
+check() checks the package. ex: dependencies  
+
+use_package("cli") in console will add dependencies. look at DESCRIPTION under IMPORTS
+
+there is still a common error. What is it?!
+
+must refer to outside packages within functions (cli::) unless base R EVERYTHING needs the reference
+
+```{r}
+mydata <- iris
+```
+
+use_data(mydata) creates a data folder and notes dependencies
+look at 'https://r-pkgs.org/data.html'
+create a new r script called data.R. copy format from website.
+save it in the R folder.
+
+document() updates files?
+
+use_testthat() edits descriptions and creates tests folder
+
+use_test("greet") creates new file in tests>testthat
+
+test_that("greet works without a name", {
+  expect_message(greet(), "Hello User!")
+})
+
+
+change cat() to
+
+use_github_action_check_release() creates a .github folder. 
+this fails because reasons
+
