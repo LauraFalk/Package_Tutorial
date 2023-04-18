@@ -1,0 +1,28 @@
+---
+title: "ToyPackageMarkdown"
+author: "Laura Falk"
+date: "2023-04-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Create repo. don't use symbols or spaces
+
+Load req packages
+```{r}
+library(devtools)
+library(here)
+```
+
+```{r}
+#create_package(here())
+```
+
+This only works in the console?
+```{r}
+#use_readme_md()
+```
+
