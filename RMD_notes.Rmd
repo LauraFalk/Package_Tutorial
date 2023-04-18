@@ -74,3 +74,10 @@ this fails because reasons
 use_pkgdown()
 use_pkgdown_github_pages()
 this makes a github page for the package!
+
+use_code_of_conduct()
+
+usE_license() ?? possibly?
+
+https://r-pkgs.org/data.html#sec-documenting-data
+
