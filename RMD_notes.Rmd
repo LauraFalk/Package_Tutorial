@@ -71,3 +71,6 @@ change cat() to
 use_github_action_check_release() creates a .github folder. 
 this fails because reasons
 
+use_pkgdown()
+use_pkgdown_github_pages()
+this makes a github page for the package!

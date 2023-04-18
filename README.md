@@ -12,8 +12,8 @@ The goal of ToyPackage is to ...
 You can install the development version of ToyPackage from [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("LauraFalk/Package_Tutorial")
+# install.packages("remotes")
+remotes::install_github("LauraFalk/Package_Tutorial")
 ```
 
 ## Example
