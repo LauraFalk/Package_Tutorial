@@ -25,4 +25,5 @@ This only works in the console?
 ```{r}
 #use_readme_md()
 ```
+load_all() loads the functions in a package theoretically
 
